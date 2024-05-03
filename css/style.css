@@ -1,0 +1,58 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+:root{
+    --primary: rgb(33, 83, 77);
+    --secondary: pink;
+    --alternative: aqua;
+    --bgHeaderFooter: rgb(255, 13, 255);
+    --awesome: rgb(140, 140, 255);
+    --bgCAbout: yellow;
+    --mainBox-shadow: .2rem .2rem .1rem .2rem rgb(255, 166, 0);
+    --card-box-shadow: .5vw .5vw 1vw rgb(250, 125, 125);
+    --text-shadow: .3rem .3rem .4rem rgb(0, 255, 0);
+    --mainBg: rgb(255, 142, 255);
+    --bgImg: linear-gradient(to right, var(--awesome), var(--awesome), var(--mainBg));
+}
+
+@property --top-left{
+    syntax: "<percentage";
+    inherits: false;
+    initial-value: 50%;
+}
+
+@property --top-right{
+    syntax: "<percentage";
+    inherits: false;
+    initial-value: 50%;
+
+}
+
+@property --bottom-left {
+    syntax: "<percentage";
+    inherits: false;
+    initial-value: 0%;
+
+}
+
+@property --bottom-right {
+    syntax: "<percentage";
+    inherits: false;
+    initial-value: 0%;
+
+}
+
+
+
+
+
+
